@@ -1,0 +1,29 @@
+# Operating-system clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Editor temporary files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local environment secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+
+# Generated deck artifacts produced by the skill (not part of the skill source)
+final-deck.pptx
+deck-outline.md
+assets/
